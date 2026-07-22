@@ -2,11 +2,11 @@ import numpy as np
 
 rng = np.random.default_rng()
 
-x = np.arange(10)
+x = np.arange(7)
 # TODO: modify x so that the print statement does not throw an exception
 y = np.ones(7)
 
-w = rng.integers(2, size=(4, 3))
+w = rng.integers(2, size=(3, 4))
 # TODO: modify w so that the print statement does not throw an exception
 z = np.ones((3, 4))
 
